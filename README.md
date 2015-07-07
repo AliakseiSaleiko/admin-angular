@@ -1,0 +1,1 @@
+Simple admin panel on Angular JS
