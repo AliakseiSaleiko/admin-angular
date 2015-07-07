@@ -1,0 +1,21 @@
+<div class="breadcramb">
+  <a href="#/groups">groups/</a><a href="#groups/{{groupname}}">{{groupname}}</a>
+</div>
+
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Group info</a></li>
+  <li role="presentation"><a href="#/groups/{{groupname}}/users">Group users</a></li>
+</ul>
+
+<form name="groupEdit" ng-repeat="group in groups | filter:{groupname: groupname}">
+	<label>
+		Group name:
+		<input type="text" name="groupname" ng-model="group.groupname" required>
+	</label></br>
+	<label>
+		Title:
+		<input type="text" name="title" ng-model="group.title" required>
+	</label></br>
+	<input type="submit" id="submit" value="Submit" />
+</form>
+</div>
