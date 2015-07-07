@@ -1,0 +1,27 @@
+<div class="breadcramb">
+  <a href="#/groups">groups</a>
+</div>
+
+<div class="groupList">
+  Search: <input ng-model="query">
+    
+    <table class="table table-striped">
+
+      <thead>
+       <tr>
+         <th>Group name</th>
+         <th>Title</th>
+       </tr>
+      </thead>
+
+      <tbody>
+        <tr ng-repeat="group in groups | filter:query">
+          <td><a href="#/groups/{{group.groupname}}">{{group.groupname}}</a></td>
+          <td>{{group.title}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+  <pagination total-items="TotalItems" ng-model="CurrentPage"
+              max-size="maxSize" class="pagination-sm" boundary-links="true"></pagination>
+</div>

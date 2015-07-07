@@ -1,0 +1,89 @@
+[
+	{
+	 "username": "TestUser1",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group1",
+	   "Group2"
+	 ]
+	},
+
+	{
+	 "username": "TestUser2",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group3",
+	   "Group2"
+	 ]
+	},
+
+	{
+	 "username": "TestUser3",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group4",
+	   "Group3"
+	 ]
+	},
+
+	{
+	 "username": "TestUser4",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group1"
+	 ]
+	},
+
+	{
+	 "username": "TestUser5",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group4",
+	   "Group2",
+	   "Group1",
+	   "Group3"
+	 ]
+	},
+
+	{
+	 "username": "TestUser6",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group4"
+	 ]
+	},
+
+	{
+	 "username": "TestUser7",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group1",
+	   "Group2"
+	 ]
+	},
+
+	{
+	 "username": "TestUser8",
+	 "firstName": "Aaaa",
+	 "lastName": "Bbbb",
+	 "email": "aaa@bbb.ab",
+	 "groups": [
+	   "Group1",
+	   "Group2"
+	 ]
+	}
+]
